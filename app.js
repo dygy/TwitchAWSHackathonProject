@@ -11,7 +11,7 @@ const game = require('./game');
 const shooterServer = require('./shooterServer');
 
 const WebSocketServer = WebSocket.Server;
-let gameSelect =require('../AWSChallangeTwitch — копия/models/game');
+let gameSelect =require('./models/game');
 
 let command = {
     status :false,

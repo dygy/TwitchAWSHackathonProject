@@ -1,8 +1,8 @@
 const tmi = require("tmi.js");
-let message =require('../../AWSChallangeTwitch — копия/models/message');
-const checkUser = require('../../AWSChallangeTwitch — копия/functions/checkUser');
-const deleteUsers = require('../../AWSChallangeTwitch — копия/functions/deleteUsers');
-let gameSelect =require('../../AWSChallangeTwitch — копия/models/game');
+let message =require('../models/message');
+const checkUser = require('../functions/checkUser');
+const deleteUsers = require('../functions/deleteUsers');
+let gameSelect =require('../models/game');
 const getJSON = require('get-json');
 module.exports =(messages,channelName) => {
 
@@ -32,7 +32,7 @@ module.exports =(messages,channelName) => {
     }).catch(function (err) {
         console.log(err);
     });
-    let users;
+    let users=[];
     let messageToPlay='';
     let move_x;
     let move_z;
