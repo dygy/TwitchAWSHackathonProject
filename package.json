@@ -19,7 +19,7 @@
   "author": "Dygy",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.398.0",
+    "aws-sdk": "^2.814.0",
     "body-parser": "latest",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
